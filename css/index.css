@@ -313,11 +313,21 @@ ul{
     padding:9px 12px;
     /* font-weight: 600; */
 }
-.other_contacts_link:hover{
+.other_contacts_link:hover,.social_link:hover{
     color:#1e70bf;
 }
 .contact_link_name_span{
     font-weight: 600;
+}
+#social{
+    margin-top:-25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:20px;
+}
+.social_link{
+    margin-right:10px;
+    color:rgb(103, 103, 103);
 }
 @media (max-width:1200px){
     #projects,#skills{
